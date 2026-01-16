@@ -2,7 +2,10 @@
 
 An end-to-end machine learning project for car price prediction, performance classification, and similar car recommendations.
 
-## 🚗 Project Overview
+## Live Demo (Deployed)
+https://ai-car.streamlit.app/
+
+##  Project Overview
 
 This project provides an AI-powered system to:
 - **Predict car prices** based on specifications (regression)
@@ -42,14 +45,14 @@ cars/
 └── README.md
 ```
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Run the full pipeline
@@ -117,17 +120,3 @@ recommender.fit(cars_df)
 similar_cars = recommender.get_similar_cars(car_index=0, n_recommendations=5)
 ```
 
-## 🔍 Model Explainability
-
-The project uses SHAP values for model interpretation:
-- Global feature importance
-- Individual prediction explanations
-- Dependence plots
-
-## 📝 License
-
-This project is for educational and demonstration purposes.
-
-## 👥 Author
-
-AI-Powered Car Intelligence System - Data Science Project
