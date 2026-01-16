@@ -69,7 +69,6 @@ class PerformanceClassifier:
                 random_state=self.random_state
             ),
             'logistic_regression': LogisticRegression(
-                multi_class='multinomial',
                 class_weight='balanced',
                 max_iter=1000,
                 random_state=self.random_state
