@@ -13,7 +13,7 @@ This project provides an AI-powered system to:
 - **Recommend similar cars** using content-based filtering
 - **Analyze and visualize** car market data
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 cars/
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains **1,218 cars** from **37 manufacturers** with the following features:
 
@@ -77,7 +77,7 @@ The dataset contains **1,218 cars** from **37 manufacturers** with the following
 | Seats | Seating capacity |
 | Torque | Engine torque in Nm |
 
-## 🤖 Models
+##  Models
 
 ### 1. Price Prediction (Regression)
 - **Models**: Random Forest, XGBoost, Gradient Boosting, Ridge
@@ -93,7 +93,7 @@ The dataset contains **1,218 cars** from **37 manufacturers** with the following
 - **Approach**: Content-based filtering with cosine similarity
 - **Features**: Horsepower, speed, acceleration, price, torque, seats
 
-## 📈 Usage Examples
+##  Usage Examples
 
 ### Price Prediction
 ```python
